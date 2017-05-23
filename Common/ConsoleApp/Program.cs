@@ -11,8 +11,12 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            TestClass.show();
+            //TestClass.show();
+            string str = "aaaabbbbccccddddeeeefff";
+            var show = StringProcess.BankAccountWithSpace(str);
+            Console.WriteLine(show);
             Console.ReadKey();
+
         }
     }
 }
