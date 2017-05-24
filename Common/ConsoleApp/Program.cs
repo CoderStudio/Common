@@ -1,4 +1,5 @@
 ﻿using Common;
+using Common.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,11 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             TestClass.show();
+
+            string s = "";
+            Console.WriteLine(string.IsNullOrEmpty(s));
+            Console.WriteLine(s.IsNullOrEmpty());
+
             Console.ReadKey();
         }
     }
