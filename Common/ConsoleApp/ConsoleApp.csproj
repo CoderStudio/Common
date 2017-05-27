@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common.Entities\Common.Entities.csproj">
+      <Project>{6873743c-e208-4170-bfcd-3aeb12b40923}</Project>
+      <Name>Common.Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{a71e01f2-ec85-4c3c-a3fc-0eb3f38d9b04}</Project>
       <Name>Common</Name>
