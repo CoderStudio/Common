@@ -5,10 +5,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Common.Extensions
+namespace Common
 {
-    public static class StrExt
+    public static class StringExt
     {
+        public static readonly DateTime NullSqlDateTime = ((DateTime)System.Data.SqlTypes.SqlDateTime.Null);
+
+
         /// <summary>
         /// 判断字符是否为空
         /// </summary>
