@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Extensions\EnumExt.cs" />
     <Compile Include="Extensions\RegexPattern.cs" />
     <Compile Include="Extensions\StringExt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
