@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A71E01F2-EC85-4C3C-A3FC-0EB3F38D9B04}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Entities", "Common.Entities\Common.Entities.csproj", "{6873743C-E208-4170-BFCD-3AEB12B40923}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQDemo", "LINQDemo\LINQDemo.csproj", "{6261A137-8793-46E9-BED3-C0F41D6269EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmlDocdemo", "xmlDocdemo\xmlDocdemo.csproj", "{A6CE0663-3DAC-4806-8F45-8F5B6D7CB633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6261A137-8793-46E9-BED3-C0F41D6269EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6261A137-8793-46E9-BED3-C0F41D6269EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6261A137-8793-46E9-BED3-C0F41D6269EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CE0663-3DAC-4806-8F45-8F5B6D7CB633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CE0663-3DAC-4806-8F45-8F5B6D7CB633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CE0663-3DAC-4806-8F45-8F5B6D7CB633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CE0663-3DAC-4806-8F45-8F5B6D7CB633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

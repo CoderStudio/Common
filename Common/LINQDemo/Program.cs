@@ -11,6 +11,8 @@ namespace LINQDemo
         static void Main(string[] args)
         {
             var src1 = Data.GetPersonlist();
+            var count = src1.Count(t => ((t.id == 1) || (t.id == 5)));
+            Console.WriteLine("{0}__", count);
             var src2 = Data.GetPetlist();
 
             var res = (from c in src1

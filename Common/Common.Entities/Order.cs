@@ -12,8 +12,7 @@ namespace Common.Entities
         {
             OrderId = "";
             SerialId = "";
-            Name = ""; 
-            
+            Name = "";             
         }
 
         /// <summary>

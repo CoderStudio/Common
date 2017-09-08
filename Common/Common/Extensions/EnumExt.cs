@@ -10,6 +10,11 @@ namespace Common.Extensions
 {
     public static class EnumExt
     {
+        /// <summary>
+        /// Get Enum Des
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public static string GetDes(this Enum value)
         {
             try
@@ -23,11 +28,15 @@ namespace Common.Extensions
                 return value.ToString();
             }
         }
-
+        /// <summary>
+        ///  Get Enum Des
+        /// </summary>
+        /// <param name="en"></param>
+        /// <returns></returns>
         public static string GetDescription(this Enum en)
         {
-            Type type = en.GetType();   //获取类型  
-            MemberInfo[] memberInfos = type.GetMember(en.ToString());   //获取成员  
+            Type type = en.GetType();   //get type  
+            MemberInfo[] memberInfos = type.GetMember(en.ToString());   //get member  
             if (memberInfos != null && memberInfos.Length > 0)
             {
                 DescriptionAttribute[] attrs = memberInfos[0].GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[];   //获取描述特性  
