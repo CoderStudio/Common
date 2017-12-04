@@ -15,8 +15,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             //TestClass.show();
-
-            
+                       
             //#region 字符空值判断
             //string s = "";
             //Console.WriteLine(string.IsNullOrEmpty(s));
